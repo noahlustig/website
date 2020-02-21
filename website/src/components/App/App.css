@@ -1,21 +1,12 @@
 html {
-    background-color: #F3EBE1;
+    background-color: #FFFFFF;
 }
 .App {
   text-align: center;
   width: 100%;
-}
-
-
-
-.left-box {
-    width: 90%;
-    border: 1px black solid;
-    margin: 0 auto;
-}
-
-.right-box {
-    width: 45%;
-    border: 1px black solid;
-    margin: 0 auto;
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #a7b7d4;
+  height: 100vh;
 }

@@ -7,11 +7,8 @@ import NavBar from '../NavBar/NavBar.js';
 function App() {
   return (
     <div className="App">
-        <Header/>
         <NavBar />
-        <div className="left-box">
-            <p>Laurzel is my thotzel</p>
-        </div>
+        <Header/>
     </div>
   );
 }
