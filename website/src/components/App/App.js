@@ -20,12 +20,12 @@ import PageNotFound from '../../pages/404/404.jsx';
 function App() {
   return (
   <Router>
-  <Switch>
-    <Route exact path="/" component = {HomePage} />
-    <Route exact path="/portfolio" component = {PortfolioPage} />
-    <Route exact path='/404' component = {PageNotFound} />
-    <Redirect to='/404' />
-  </ Switch>
+      <Switch>
+        <Route exact path="/" component = {HomePage} />
+        <Route exact path="/portfolio" component = {PortfolioPage} />
+        <Route exact path='/404' component = {PageNotFound} />
+        <Redirect to='/404' />
+      </ Switch>
   </Router>
   );
 }
