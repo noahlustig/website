@@ -1,0 +1,11 @@
+.bio {
+    width: 45%;
+    min-width: 200px;
+
+}
+
+.bio img {
+    width: 50%;
+    min-width: 180px;
+    margin: 0 auto;
+}
