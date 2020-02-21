@@ -15,6 +15,7 @@ import {
 //import pages
 import HomePage from '../../pages/home';
 import PortfolioPage from '../../pages/portfolio/PortfolioPage.jsx';
+import PageNotFound from '../../pages/404/404.jsx';
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
   <Switch>
     <Route exact path="/" component = {HomePage} />
     <Route exact path="/portfolio" component = {PortfolioPage} />
+    <Route exact path='/404' component = {PageNotFound} />
+    <Redirect to='/404' />
   </ Switch>
   </Router>
   );
