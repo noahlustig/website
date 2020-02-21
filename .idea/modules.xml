@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/noahlustig.tech.iml" filepath="$PROJECT_DIR$/.idea/noahlustig.tech.iml" />
+      <module fileurl="file://$USER_HOME$/ravenous/.idea/ravenous.iml" filepath="$USER_HOME$/ravenous/.idea/ravenous.iml" />
+    </modules>
+  </component>
+</project>

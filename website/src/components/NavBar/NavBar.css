@@ -1,0 +1,16 @@
+ul {
+    list-style-type: none;
+}
+
+li {
+    display:inline;
+}
+
+li a {
+    padding: 8px;
+}
+
+.navbar {
+    width: 70%;
+    margin: 10px auto;
+}
