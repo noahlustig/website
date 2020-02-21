@@ -31,6 +31,10 @@ li a {
 
 }
 
+li a img {
+    margin: 20px;
+}
+
 
 li a:hover {
     background-color: #FFD485;

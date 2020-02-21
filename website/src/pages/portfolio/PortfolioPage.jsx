@@ -6,7 +6,7 @@ const PortfolioPage = () => {
     return (
     <div className="App">
         <NavBar />
-        <p>Portfolio Page</p>
+        <h1>Portfolio Page</h1>
     </div>
 
     );
