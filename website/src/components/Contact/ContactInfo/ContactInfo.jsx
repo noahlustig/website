@@ -8,7 +8,7 @@ class ContactInfo extends React.Component {
         this.state = {
             'name': 'Noah Lustig',
             'email': 'noah@noahlustig.tech',
-            'github': '#lookup',
+            'github': 'https://github.com/noahlustig/',
             'linkedin': 'https://www.linkedin.com/in/noahlustig/',
             'pic': {
                 'src': '#',
