@@ -53,6 +53,7 @@ class ContactForm extends React.Component {
                     <input type='text' value={this.state.message} onChange={this.handleMessageChange} />
                 </label>
                 <br />
+                <input type='submit' value='Submit' />
             </form>
         </div>
         );
