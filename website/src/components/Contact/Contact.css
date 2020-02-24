@@ -1,5 +1,9 @@
 .contact {
-    width: 100%;
+    width: 75%;
     margin: 0 auto;
+    padding: 0;
     border: 1px red solid;
+    display:flex;
+    justify-content: space-evenly;
 }
+

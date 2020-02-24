@@ -22,9 +22,9 @@ li a {
     color: white;
     display: inline-flex;
     align-items: center;
-    height:2em;
+    height:2rem;
     padding: 8px;
-    font-size:1em;
+    font-size:1rem;
     text-decoration: none;
     color: 	#FFFAFA;
     vertical-align: middle;
@@ -37,12 +37,9 @@ li a img {
 
 
 li a:hover {
-    background-color: #FFD485;
-}
-
-li a:active {
     background-color: #FF894A;
 }
+
 
 li a img {
     height: 2.5em;

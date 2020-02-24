@@ -13,6 +13,7 @@ class ContactForm extends React.Component {
         this.handleSubmit = this.handleSubmit.bind(this);
         this.handleEmailChange = this.handleEmailChange.bind(this);
         this.handleNameChange = this.handleNameChange.bind(this);
+        this.handleMessageChange = this.handleMessageChange.bind(this);
     }
 
     handleSubmit(e) {
@@ -39,16 +40,19 @@ class ContactForm extends React.Component {
                     Name:
                     <input type='text' value={this.state.name} onChange={this.handleNameChange} />
                 </label>
+                <br />
 
                 <label>
                     email:
                     <input type='email' value={this.state.email} onChange={this.handleEmailChange} />
                 </label>
+                <br />
 
                 <label>
                     Message:
                     <input type='text' value={this.state.message} onChange={this.handleMessageChange} />
                 </label>
+                <br />
             </form>
         </div>
         );
