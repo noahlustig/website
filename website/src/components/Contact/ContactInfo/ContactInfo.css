@@ -7,4 +7,20 @@
 
 .profile-pic img {
     margin: .5em auto;
+    width: 50%;
+}
+
+.contact-details {
+    border: 1px orange solid;
+    margin: .5em auto;
+    padding: 0;
+    width: 20%;
+
+}
+
+
+.contact-logo {
+    width: 30%;
+    margin: 0;
+    padding: 0;
 }

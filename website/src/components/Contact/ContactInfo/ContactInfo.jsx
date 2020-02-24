@@ -2,6 +2,8 @@ import React from 'react';
 import './ContactInfo.css';
 import profilePic from './profile.jfif';
 import github from './github.png';
+import email from './email.png';
+import linkedin from './linkedin.png';
 
 class ContactInfo extends React.Component {
     constructor(props) {
@@ -27,9 +29,9 @@ class ContactInfo extends React.Component {
                 </div>
 
                 <div className='contact-details'>
-                    <a href={'mailto: ' + this.state.email}>Email</a>
-                    <a href={this.state.github}>Github</a>
-                    <a href={this.state.linkedin}>LinkedIn</a>
+                    <a href={'mailto: ' + this.state.email}> <img className= 'contact-logo' src={email} alt="Email" /> </a>
+                    <a href={this.state.github}><img className= 'contact-logo' src={github} alt='GitHub' /></a>
+                    <a href={this.state.linkedin}><img className= 'contact-logo' src={linkedin} alt='LinkedIn' /></a>
                 </div>
             </div>
         );
