@@ -1,14 +1,10 @@
 import React from 'react';
-import logo from '../../logo.svg';
 import './App.css';
-import Header from '../Header/Header.js';
-import NavBar from '../NavBar/NavBar.js';
 //import routing utils
 import {
   BrowserRouter as Router,
   Route,
   Switch,
-  Link,
   Redirect
 } from 'react-router-dom';
 

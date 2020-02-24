@@ -17,9 +17,15 @@ class ContactInfo extends React.Component {
             'pic': {
                 'src': profilePic,
                 'alt': 'picture of Noah Lustig'
+            },
+            'logos': {
+                'github': github,
+                'linkedin': linkedin,
+                'email': email
             }
-        };
-        };
+        }
+    }
+
 
     render() {
         return (
@@ -29,9 +35,9 @@ class ContactInfo extends React.Component {
                 </div>
 
                 <div className='contact-details'>
-                    <a href={'mailto: ' + this.state.email}> <img className= 'contact-logo' src={email} alt="Email" /> </a>
-                    <a href={this.state.github}><img className= 'contact-logo' src={github} alt='GitHub' /></a>
-                    <a href={this.state.linkedin}><img className= 'contact-logo' src={linkedin} alt='LinkedIn' /></a>
+                    <a href={'mailto: ' + this.state.email}> <img className= 'contact-logo' src={this.state.logos.email} alt="Email" /> </a>
+                    <a href={this.state.github}><img className= 'contact-logo' src={this.state.logos.github} alt='GitHub' /></a>
+                    <a href={this.state.linkedin}><img className= 'contact-logo' src={this.state.logos.linkedin} alt='LinkedIn' /></a>
                 </div>
             </div>
         );
