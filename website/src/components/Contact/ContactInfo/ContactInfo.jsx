@@ -1,6 +1,7 @@
 import React from 'react';
 import './ContactInfo.css';
 import profilePic from './profile.jfif';
+import github from './github.png';
 
 class ContactInfo extends React.Component {
     constructor(props) {
