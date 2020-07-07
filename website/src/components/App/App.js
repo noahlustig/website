@@ -19,12 +19,15 @@ import PageNotFound from '../../pages/404/404.jsx';
 import BlogPage from '../../pages/blog/BlogPage.jsx';
 import ContactPage from '../../pages/contact/ContactPage.jsx';
 import ReadingListPage from '../../pages/reading-list/ReadingListPage.jsx';
+import AboutPage from '../../pages/about/AboutPage.jsx';
+
 
 function App() {
   return (
   <Router>
       <Switch>
         <Route exact path="/" component = {HomePage} />
+        <Route exact path="/about" component = {AboutPage} />
         <Route exact path="/portfolio" component = {PortfolioPage} />
         <Route exact path="/blog" component = {BlogPage} />
         <Route exact path="/contact" component = {ContactPage} />

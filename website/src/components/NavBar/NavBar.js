@@ -6,6 +6,7 @@ import {Link} from 'react-router-dom';
 const p = {
     'urls': {
         'home': './',
+        'about':'./about',
         'portfolio': './portfolio',
         'readinglist':'./reading-list',
         'blog':'./blog',
@@ -20,6 +21,7 @@ class NavBar extends React.Component {
             <div className='navbar'>
                 <ul>
                     <li><Link to={p.urls.home}>Home</Link></li>
+                    <li><Link to={p.urls.about}>About</Link></li>
                     <li><Link to={p.urls.portfolio}>Portfolio</Link></li>
                     <li><Link to={p.urls.readinglist}>Reading List</Link></li>
                     <li><Link to={p.urls.blog}>Blog</Link></li>
