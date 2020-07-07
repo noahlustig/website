@@ -8,6 +8,9 @@ html, body {
 .App {
   text-align: center;
   width: 100%;
-  background-color: #a7b7d4;
+  /*background-color: #a7b7d4;*/
   height: 100vh;
+  background-image: url('../../logo-trimmed.png');
+  background-repeat:no-repeat;
+  background-position: center;
 }

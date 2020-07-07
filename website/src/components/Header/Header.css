@@ -1,9 +1,13 @@
 .header {
     width: 90%;
     margin:0 auto;
+    position: absolute;
+    bottom: 20vh;
+    left: 5%;
+    border: 1px solid red;
 }
 
 .header img {
-    width: 200px;
+    width: 500px;
     margin: 0 auto;
 }

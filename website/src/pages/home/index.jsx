@@ -8,7 +8,6 @@ const HomePage = () => {
     <div className="App">
         <NavBar />
         <Header/>
-        <Bio />
     </div>
 
     );

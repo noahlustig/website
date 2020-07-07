@@ -19,7 +19,7 @@ class NavBar extends React.Component {
         return (
             <div className='navbar'>
                 <ul>
-                    <li><Link to={p.urls.home}><img src={logo} alt='NL.tech logo' /></Link></li>
+                    <li><Link to={p.urls.home}>Home</Link></li>
                     <li><Link to={p.urls.portfolio}>Portfolio</Link></li>
                     <li><Link to={p.urls.readinglist}>Reading List</Link></li>
                     <li><Link to={p.urls.blog}>Blog</Link></li>

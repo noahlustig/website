@@ -8,7 +8,7 @@ ul {
     list-style-type: none;
     padding: 0;
     overflow: hidden;
-    background-color: #7997D0;
+    background-image: linear-gradient(to top,#f2a900, #ec5600);
     margin: 0;
 }
 
@@ -22,26 +22,17 @@ li a {
     color: white;
     display: inline-flex;
     align-items: center;
-    height:2rem;
     padding: 8px;
     font-size:1rem;
     text-decoration: none;
     color: 	#FFFAFA;
     vertical-align: middle;
+    line-height: 2.5rem;
 
 }
 
-li a img {
-    margin: 20px;
-}
 
 
 li a:hover {
     background-color: #FF894A;
-}
-
-
-li a img {
-    height: 2.5em;
-    vertical-align: text-bottom;
 }
